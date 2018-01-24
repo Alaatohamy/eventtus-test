@@ -1,0 +1,25 @@
+.exhibihtors ul{
+	list-style: none;
+	border: 1px solid grey;
+	box-shadow: 1px solid grey;
+	margin-bottom: 2px;
+	padding: 5px;
+}
+.exhibihtors ul li{
+	display: inline-block;
+}
+.clearfix::before,
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.exhibihtors .icone{
+	float: left;
+	width: 10%;
+}
+.exhibihtors .delete-icone{
+	float: right;
+	width: 10%;
+
+}

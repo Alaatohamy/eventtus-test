@@ -26,7 +26,7 @@ const mapDispatchToProps = function(dispatch){
             });
         },
         deleteExhibitor: (id) =>{
-            dispatch(deleteExhibitor()).then((response) => {
+            dispatch(deleteExhibitor(id)).then((response) => {
                 if(response.payload.status < 400){
                     dispatch(deleteExhibitorSuccess(response.payload.data))
                 }else{

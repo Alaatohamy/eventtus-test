@@ -15,7 +15,7 @@ export default function(currentState = INITIAL_STATE, action){
         case GET_EXHIBITORS_SUCCESS:
             var newex = action.exhibihtors;
             console.log("in reducer", newex);
-            return {...currentState, exhibihtors: newex, loading: false };
+            return {...currentState, exhibihtors: action.exhibihtors, loading: false };
 
         break;
         case GET_EXHIBITORS_FAILURE:
