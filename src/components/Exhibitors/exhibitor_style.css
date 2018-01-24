@@ -1,9 +1,15 @@
+.exhibihtors{
+	color: grey;
+}
 .exhibihtors ul{
+	margin: 0;
 	list-style: none;
 	border: 1px solid grey;
 	box-shadow: 1px solid grey;
-	margin-bottom: 2px;
-	padding: 5px;
+	padding: 7px;
+}
+.exhibihtors ul + ul{
+	margin-top: 10px;
 }
 .exhibihtors ul li{
 	display: inline-block;
@@ -17,9 +23,14 @@
 .exhibihtors .icone{
 	float: left;
 	width: 10%;
+
 }
 .exhibihtors .delete-icone{
 	float: right;
 	width: 10%;
-
+}
+.exhibihtors button{
+	background-color: white;
+	border: 0;
+	color: grey;
 }
